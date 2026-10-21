@@ -183,6 +183,10 @@ main{padding:22px 0 80px}
 .sec-b p:last-child{margin-bottom:0}
 .sec-b strong{font-weight:600}
 .sec-b h4{margin:18px 0 8px;font:600 22px/1.1 var(--display);letter-spacing:.05em;text-transform:uppercase}
+.mact{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:12px;margin:26px 0 12px;padding:9px 0 9px 12px;border-left:3px solid var(--fg);background:linear-gradient(90deg,var(--glow),transparent)}
+.sec-b>.mact:first-child{margin-top:2px}
+.mact-n{font:500 11px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.mact-w{font:600 22px/1 var(--display);letter-spacing:.08em;text-transform:uppercase}
 .sec-b s{color:var(--dim)}
 .sec-b pre{margin:0 0 .85em;font:400 12px/1.4 var(--mono);color:var(--mute);overflow-x:auto}
 .sec-b ul,.sec-b ol{margin:0 0 .85em;padding:0;list-style:none;counter-reset:n;max-width:68ch}
@@ -195,6 +199,9 @@ main{padding:22px 0 80px}
 .subnote::before{content:"// "}
 .tally{display:flex;gap:10px;align-items:baseline;font:500 13px var(--mono);border:1px solid var(--fg);padding:6px 10px;width:fit-content;max-width:100%}
 .tally b{background:var(--inv-bg);color:var(--inv-fg);padding:0 6px;font-weight:500}
+.tally.credit{border:3px double var(--fg);background:var(--glow);padding:7px 12px;gap:12px;align-items:center}
+.tally.credit span{font:600 12px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase}
+.tally.credit span::before{content:"★ "}
 .redact{background:var(--fg);color:transparent;padding:0 4px;transition:all .3s;cursor:help;user-select:none}
 .redact:hover{background:transparent;color:var(--fg)}
 .sub{font:400 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:0 0 8px}
