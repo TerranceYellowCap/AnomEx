@@ -202,6 +202,10 @@ main{padding:22px 0 80px}
 .tally.credit{border:3px double var(--fg);background:var(--glow);padding:7px 12px;gap:12px;align-items:center}
 .tally.credit span{font:600 12px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase}
 .tally.credit span::before{content:"★ "}
+.tally.credit em{font:400 11px/1 var(--mono);font-style:normal;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.tally.credit em::before{content:"· "}
+.tally.credit.minus{border-style:dashed}
+.tally.credit.minus b{background:transparent;color:var(--fg);outline:1px solid var(--fg)}
 .redact{background:var(--fg);color:transparent;padding:0 4px;transition:all .3s;cursor:help;user-select:none}
 .redact:hover{background:transparent;color:var(--fg)}
 .sub{font:400 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:0 0 8px}
